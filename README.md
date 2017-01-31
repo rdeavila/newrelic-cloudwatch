@@ -61,9 +61,10 @@ As mentioned by the plugin authors themselves:
 
 Running this container is as simple as running the following command:
 
-    docker run -d \
-	    -e NEWRELIC_KEY=123 \
-        -e AWS_ACCESS_KEY=123123 \
-        -e AWS_SECRET_KEY=123 \
-        gekkie/newrelic-cloudwatch
+```
+docker run -d \
+  -e NEWRELIC_KEY=123 \
+  -e AWS_ACCESS_KEY=123123 \
+  -e AWS_SECRET_KEY=123 \
+  rdeavila/newrelic-cloudwatch
 
